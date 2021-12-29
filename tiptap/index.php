@@ -23,6 +23,7 @@
 
     <!-- Standard CSS -->
     <link href="assets/css/style-index.css" rel="stylesheet" />
+    <link href="assets/css/style-login.css" rel="stylesheet" />
 
 </head>
 
@@ -39,188 +40,111 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="?mn=home">Home</a>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="?mn=about">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                        <a class="nav-link" aria-current="page" href="?mn=contact">Contact Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Book a Storage</a>
+                        <a class="nav-link" aria-current="page" href="?mn=book">Book a Storage</a>
                     </li>
                 </ul>
 
                 <div class="btn-area-header">
                     <div class="mr-3">
-                        <button class="btn-header btn--login">Login</button>
+                        <button class="btn btn-header btn--login"><a href="?mn=login" style="color: #d3455b; padding:0;">Login</a></button>
                     </div>
-                    <button class="btn-header btn--signup">Sign Up</button>
+                    <button class="btn btn-header btn--signup"><a href="?mn=signup" style="color:white; padding:0;">Sign Up</a></button>
                 </div>
             </div>
         </div>
     </nav>
     <!-- ========= End Navbar ========= -->
 
-    <!-- ========= Header ========= -->
-    <header class="masthead">
-        <div class="container">
-            <div class="masthead-subheading">Need a place to store your goods?</div>
-            <div class="masthead-heading">tiptap.</div>
-            <button class="btn btn-primary btn-xl text-uppercase">Book Now</button>
-        </div>
-    </header>
-    <!-- ========= End Header ========= -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-        <div class="container" data-aos="fade-up">
-            <div class="column">
-                <div class="section-title">
-                    <h2>Our Services</h2>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos -delay="100">
-                        <div class="card ms-auto me-auto" style="width: 18rem">
-                            <img class="card-img-top" src="assets/img/inside.jpeg" alt="Booking card" />
-                            <div class="card-body">
-                                <p class="card-title">
-                                    Booking
-                                </p>
-                                <p class="card-text">
-                                    Book a storage room to store your goods. We'll guarantee you to store that your goods will get the care it needs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="card ms-auto me-auto" style="width: 18rem">
-                            <img class="card-img-top" src="..." alt="Booking card" />
-                            <div class="card-body">
-                                <p class="card-title">
-                                    Pick Up
-                                </p>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="card ms-auto me-auto" style="width: 18rem">
-                        <img class="card-img-top" src="..." alt="Storage sale card" />
-                        <div class="card-body">
-                            <p class="card-title">
-                                Storage Sale
-                            </p>
-                            <p class="card-text">
-                                Some quick example text to build on the card title and make up the bulk of the card's content.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Services Section -->
-
-    <!-- Book Now Section -->
-    <section class="book-section" id="services">
-        <div class="container">
-            <div class="text-center">
-                <div class="section-title">
-                    <h2>Here’s how the self-storage process works</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Schedule</h4>
-                    <p class="text-muted">Pick a date & duration of storage</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Size</h4>
-                    <p class="text-muted">Choose your room size</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="my-3">Store</h4>
-                    <p class="text-muted">Pack your goods and prepare to move in</p>
-                </div>
-            </div>
-            <button class="btn btn-primary btn-xl text-uppercase btn-book">Book Now</button>
-        </div>
-    </section>
-    <!--End Book Now Section-->
-
-    <!-- Footer -->
-    <footer id="footer">
-
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 footer-contact">
-                        <div class="icon-text">
-                            <span style="padding-right: 20px">
-                                <i class="fas fa-laptop"></i>
-                            </span>
-                            <p>Jl. Surya Sumantri
-                                <br> <strong>Bandung, Indonesia</strong>
-                            </p>
-                        </div>
-
-                        <div class="icon-text">
-                            <span style="padding-right: 20px">
-                                <i class="fas fa-laptop"></i>
-                            </span>
-                            <p>TipTapMantap@gmail.com</p>
-                        </div>
-
-                        <div class="icon-text">
-                            <span style="padding-right: 20px">
-                                <i class="fas fa-laptop"></i>
-                            </span>
-                            <p>+62 089887689</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 ms-auto footer-right">
-                        <h4>TipTap</h4>
-                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae
-                            legam multos aute sint culpa legam noster magna</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-md-flex py-4 footer-credits">
-            <div class="me-md-auto text-center text-md-start">
-                <div class="copyright">
-                    &copy; Copyright <strong><span>Leona&Exelonia</span></strong>. All Rights Reserved
-                </div>
-                </div>
-                <div class="social-links text-center text-md-right pt-3 pt-md-0">
-                    <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#" class="instagram"><i class="fab fa-facebook-square"></i></a>
-                </div>
-            </div>
-    </footer>
-    <!--End Footer-->
-
+    <?php
+    $menu = filter_input(INPUT_GET, "mn");
+    switch ($menu) {
+        case "home":
+            include_once 'pages/home.php';
+            break;
+        case "about":
+            include_once 'index.php';
+            break;
+        case "contact":
+            include_once 'index.php';
+            break;
+        case "book":
+            include_once 'index.php';
+            break;
+        case "signup":
+            include_once 'pages/signup-page.php';
+            break;
+        case "login":
+            include_once 'pages/login-page.php';
+            break;
+        default:
+            include_once 'pages/home.php';
+    };
+    ?>
 </body>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-3 footer-contact">
+                    <div class="icon-text">
+                        <span style="padding-right: 20px">
+                            <i class="fas fa-laptop"></i>
+                        </span>
+                        <p>Jl. Surya Sumantri
+                            <br> <strong>Bandung, Indonesia</strong>
+                        </p>
+                    </div>
+
+                    <div class="icon-text">
+                        <span style="padding-right: 20px">
+                            <i class="fas fa-laptop"></i>
+                        </span>
+                        <p>TipTapMantap@gmail.com</p>
+                    </div>
+
+                    <div class="icon-text">
+                        <span style="padding-right: 20px">
+                            <i class="fas fa-laptop"></i>
+                        </span>
+                        <p>+62 089887689</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 ms-auto footer-right">
+                    <h4>TipTap</h4>
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae legam multos aute sint culpa legam noster magnaTamen quem nulla quae
+                        legam multos aute sint culpa legam noster magna</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex py-4 footer-credits">
+        <div class="me-md-auto text-center text-md-start">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Leona&Exelonia</span></strong>. All Rights Reserved
+            </div>
+        </div>
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="#" class="facebook"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="instagram"><i class="fab fa-facebook-square"></i></a>
+        </div>
+    </div>
+</footer>
+<!-- ======= End Footer ======= -->
 
 </html>
